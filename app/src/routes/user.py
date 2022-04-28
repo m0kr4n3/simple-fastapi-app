@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Body, Depends
-from app.models.user import UserSchema, UserLoginSchema
-from app.auth.auth_bearer import JWTBearer
-from app.auth.auth_handler import signJWT
+from src.models.user import UserSchema, UserLoginSchema
+from src.auth.auth_bearer import JWTBearer
+from src.auth.auth_handler import signJWT
 
 users = []
 
