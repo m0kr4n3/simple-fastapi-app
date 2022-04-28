@@ -10,6 +10,7 @@ Simple RESTful application with FastAPI + MongoDB + JWT + Docker
 Built on Python: 3.8.
 
 ## File Structure
+```
 .
 ├── app
 │   ├── Dockerfile
@@ -31,7 +32,7 @@ Built on Python: 3.8.
 │       ├── api.py
 │       └── database.py
 └── docker-compose.yml
-
+```
 
 ## Installation and usage
 - Create env from template:
