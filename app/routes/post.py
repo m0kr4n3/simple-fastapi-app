@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from app.models.post import PostSchema
-from fastapi import FastAPI, Body, Depends
+from fastapi import Depends
 from app.auth.auth_bearer import JWTBearer
 
 posts = [
